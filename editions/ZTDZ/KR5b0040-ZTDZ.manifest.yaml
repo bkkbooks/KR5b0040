@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5b0040/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5b0040/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 洞玄靈寶上師說救護身命經
+  date: '2015-08-28 23:47:53.739785'
+  source:
+    repository: kanripo
+    path: KR5b0040
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5b0040_000-ZTDZ.yaml, hash: 'sha256:0ec4681d1f7d75c8bb42d4c326d2483b6e18a19561eddb65a0d9e6eb758af4b4'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5b0040_000-ZTDZ.markers.yaml, hash: 'sha256:6ade551e2f11125612c0e0f12798c725c42e3dada6b5b72a3b84855e9c5d3a3a'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5b0040_SJB_000-060227c
+    span:
+    - body
+    - 0
+    - 3751
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:3fb60241d55fbd0264bc1a8ad4790be754a393c5b4bda069fc84e6fea3f4364d
